@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <vocational />
   </div>
 </template>
+
+<script>
+import vocational from '@/components/vocational.vue'
+
+export default {
+  name: 'About',
+  components: {
+    vocational
+  }
+}
+</script>
