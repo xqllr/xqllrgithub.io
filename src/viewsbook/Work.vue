@@ -1,9 +1,9 @@
 <template>
   <div class="work">
-    <button v-if="xs" @click="chang">查看项目经验</button>
-    <button v-if="msg" @click="chang">查看工作经历</button>
     <experience v-if="xs" />
     <suffer v-if="msg" />
+    <button v-if="xs" @click="chang">查看项目经验</button>
+    <button v-if="msg" @click="chang">查看工作经历</button>
   </div>
 </template>
 
@@ -31,3 +31,12 @@ export default {
   },
 };
 </script>
+<style>
+  .work {
+    margin-bottom:3rem ;
+  }
+  .work button {
+    margin-top: .5rem;
+    padding: .25rem .5rem;
+  }
+</style>

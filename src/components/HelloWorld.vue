@@ -31,7 +31,7 @@ export default {
 .message {
   width: 100%;
   margin: 0 auto;
-  padding: 2%;
+  padding: 2% 5%;
   box-sizing: border-box;
   /* background: lightpink; */
   text-align: left;

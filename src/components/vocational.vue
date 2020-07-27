@@ -29,4 +29,7 @@
     .voa li{
         list-style: none;
     }
+    .voa ul {
+        margin-bottom: 5rem;
+    }
 </style>
