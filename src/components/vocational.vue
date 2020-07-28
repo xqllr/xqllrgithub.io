@@ -26,8 +26,16 @@
         width: 90%;
         text-align: left;
     }
+    .voa h3 {
+        margin-bottom: 1rem;
+
+    }
     .voa li{
         list-style: none;
+        margin-bottom: .1rem;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        padding: 1rem .5rem;
     }
     .voa ul {
         margin-bottom: 5rem;

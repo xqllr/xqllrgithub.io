@@ -2,7 +2,7 @@
   <div class="experience">
     <h3>经历</h3>
     <div>
-      <p>
+      <p class="xll">
         <span class="experience_span">时间：2019/5-至今</span>
         <span>职位：Web前端开发工程师</span>
       </p>
@@ -13,7 +13,7 @@
       <p>3. 持续的优化代码和前端体验，解决浏览器兼容性问题和提升代码的执行效率；</p>
       <p>4. 根据公司项目需求和UI设计师的设计图，运用html+css将设计图快速生成页面；</p>
       <p>5. 根据项目需求运用vue.js来进行模块化开发；</p>
-      <p>6. 使用JavaScript实现页面上的动态效果及交互，运用JQuery快速实现项目需求</p>
+      <p>6. 使用JavaScript实现页面上的动态效果及交互，运用JQuery快速实现项目需求;</p>
       <p>7. 持续的优化代码和前端体验，解决浏览器兼容性问题和提升代码的执行效率。</p>
     </div>
   </div>
@@ -29,12 +29,26 @@ export default {
   width: 90%;
   text-align: left;
 }
+.experience h3 {
+  margin-bottom: 1rem;
+
+}
 .experience_span {
   padding-right: 1rem;
 }
 .experience p {
+  margin-bottom: .1rem;
   box-sizing: border-box;
   border: 1px solid #555;
-  padding: 1rem 0;
+  padding: 1rem .5rem;
 }
+  .xll {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .xll span {
+    width: 50%;
+    display: inline-block;
+  }
 </style>
